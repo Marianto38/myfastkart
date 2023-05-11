@@ -1,12 +1,23 @@
 {
-  "name": "tu-app",
+  "name": "my-json-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "My JSON Server",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
+    "start": "node index.js"
   },
   "dependencies": {
-    "json-server": "^0.16.3"
-  }
+    "json-server": "^0.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marianto38/myfastkart"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marianto38/myfastkart/issues"
+  },
+  "homepage": "https://github.com/Marianto38/myfastkart#readme"
 }
